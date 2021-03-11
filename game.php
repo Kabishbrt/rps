@@ -13,7 +13,7 @@ if ( isset($_POST['logout']) ) {
 
 // Set up the values for the game...
 // 0 is Rock, 1 is Paper, and 2 is Scissors
-$names = array("0"=>"Rock ->    <img src ='http://localhost:8888/rps/img/rock.png'>", "1"=>"Paper ->   <img src ='http://localhost:8888/rps/img/paper.png' >", "2"=>"Scissor -> <img src ='http://localhost:8888/rps/img/Scissor.png'>");
+$names = array("0"=>"Rock ->    <img src ='http://localhost:8888/rps/img/rock.png'>", "1"=>"Paper ->   <img src ='http://localhost:8888/rps/img/paper.png' >", "2"=>"Scissor -> <img src ='http://localhost:8888/rps/img/scissors.png'>");
 //$names = array('Rock', 'Paper', 'Scissors');
 $human = isset($_POST["human"]) ? $_POST['human']+0 : -1;
 
